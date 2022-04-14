@@ -44,15 +44,15 @@ if (session.getAttribute("admin_Email") == null) {
 							<div class="form-group">
 								<label for="name"><i
 									class="zmdi zmdi-account material-icons-name"></i></label> <input
-									type="text" name="stuname" id="name" placeholder="Name" />
+									type="text" name="stuname" id="name" placeholder="Name" required/>
 							</div>
 							<div class="form-group">
 								<label for="email"><i class="zmdi zmdi-email"></i></label> <input
-									type="email" name="stuemail" id="email" placeholder="Email" />
+									type="email" name="stuemail" id="email" placeholder="Email" required />
 							</div>
 							<div class="form-group">
 								<label for="pass"><i class="zmdi zmdi-book"></i></label> <input
-									type="text" name="stusubject" id="pass" placeholder="Subject" />
+									type="text" name="stusubject" id="pass" placeholder="Subject" required/>
 							</div>
 							<div class="form-group form-button">
 								<input type="submit" name="add" id="signup" class="form-submit"
